@@ -35,32 +35,20 @@ limitations under the License.
 
 > Flatten a three-dimensional nested array.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-base-flatten3d
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var flatten3d = require( '@stdlib/array-base-flatten3d' );
+import flatten3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@esm/index.mjs';
 ```
 
 #### flatten3d( x, shape, colexicographic )
@@ -88,7 +76,7 @@ var out = flatten3d( x, [ 2, 1, 2 ], true );
 Flattens a three-dimensional nested array and assigns elements to a provided output array.
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 
 var x = [ [ [ 1, 2 ] ], [ [ 3, 4 ] ] ];
 var out = new Float64Array( 4 );
@@ -123,8 +111,13 @@ y = flatten3d.assign( x, [ 2, 1, 2 ], true, out, 1, 0 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var flatten3d = require( '@stdlib/array-base-flatten3d' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import flatten3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@esm/index.mjs';
 
 var x = [
     [ [ 1, 2 ], [ 3, 4 ] ],
@@ -162,6 +155,10 @@ out = flatten3d( x, [ 4, 2, 2 ], false );
 
 out = flatten3d( x, [ 4, 2, 2 ], true );
 // returns [ 1, 5, 9, 13, 3, 7, 11, 15, 2, 6, 10, 14, 4, 8, 12, 16 ]
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -185,7 +182,7 @@ out = flatten3d( x, [ 4, 2, 2 ], true );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
