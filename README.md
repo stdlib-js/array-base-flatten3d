@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import flatten3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-flatten3d/tags). For example,
+
+```javascript
 import flatten3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@v0.2.0-esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@esm/index.mjs';
 ```
 
 #### flatten3d( x, shape, colexicographic )
@@ -117,7 +122,7 @@ y = flatten3d.assign( x, [ 2, 1, 2 ], true, out, 1, 0 );
 <body>
 <script type="module">
 
-import flatten3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@v0.2.0-esm/index.mjs';
+import flatten3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten3d@esm/index.mjs';
 
 var x = [
     [ [ 1, 2 ], [ 3, 4 ] ],
