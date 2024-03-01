@@ -41,8 +41,8 @@
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/array-base-filled": "^0.2.0",
-    "@stdlib/array-base-zero-to": "^0.2.0",
+    "@stdlib/array-base-filled": "^0.2.1",
+    "@stdlib/array-base-zero-to": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/assert-has-own-property": "^0.2.1",
     "@stdlib/assert-is-array": "^0.2.1",
