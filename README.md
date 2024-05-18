@@ -172,6 +172,12 @@ out = flatten3d( x, [ 4, 2, 2 ], true );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/flatten3d-by`][@stdlib/array/base/flatten3d-by]</span><span class="delimiter">: </span><span class="description">flatten a three-dimensional nested array according to a callback function.</span>
+
 </section>
 
 <!-- /.related -->
@@ -247,6 +253,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-flatten3d/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-flatten3d/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/flatten3d-by]: https://github.com/stdlib-js/array-base-flatten3d-by
+
+<!-- </related-links> -->
 
 </section>
 
