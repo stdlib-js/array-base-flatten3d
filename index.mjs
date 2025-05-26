@@ -1,0 +1,4 @@
+// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.1-esm/index.mjs";function o(r,o,f){var n,e,s,t,i,u,a,d,p;if(e=o[2],s=o[1],t=o[0],n=[],f){for(i=0;i<e;i++)for(u=0;u<s;u++)for(a=0;a<t;a++)n.push(r[a][u][i]);return n}for(a=0;a<t;a++)for(p=r[a],u=0;u<s;u++)for(d=p[u],i=0;i<e;i++)n.push(d[i]);return n}function f(r,o,f,n,e,s){var t,i,u,a,d,p,l,m,h;if(t=o[2],i=o[1],u=o[0],h=s,f){for(a=0;a<t;a++)for(d=0;d<i;d++)for(p=0;p<u;p++)n[h]=r[p][d][a],h+=e;return n}for(p=0;p<u;p++)for(m=r[p],d=0;d<i;d++)for(l=m[d],a=0;a<t;a++)n[h]=l[a],h+=e;return n}r(o,"assign",f);export{f as assign,o as default};
+//# sourceMappingURL=index.mjs.map
